@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 50px;
+    /* flex: 1; */
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    padding: 10px 0;
+}
+
+.logo {
+    /* padding-left: 50px; */
+}
+
+.links {
+    /* padding-right: 50px; */
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    padding: 30px 0;
+}
+
+.heroword {
+    display: flex;
+    flex-direction: column;
+}
+
+/* need to make hero img flex for the size */
+
+.infocontainer {
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+}
+
+.info {
+    max-width: 200px;
+}
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quoteword {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ad {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
