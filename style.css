@@ -171,3 +171,7 @@ button {
     color: #e5e7eb;
     padding: 30px 0;
 }
+
+img {
+    border-radius: 10px;
+}
