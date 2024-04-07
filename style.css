@@ -69,6 +69,7 @@ button {
     padding: 10px;
     height: auto;
     width: 120px;
+    cursor: pointer;
 }
 
 .firstbutton {
