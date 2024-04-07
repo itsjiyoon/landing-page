@@ -4,8 +4,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0 50px;
-    /* flex: 1; */
     height: 100vh;
     font-family: Roboto, sans-serif;
 }
@@ -14,18 +12,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 10px; */
-    padding: 10px 0;
+    padding: 15px 200px;
     background-color: #1F2937;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-}
-
-.links {
-    /* padding-right: 50px; */
 }
 
 ul {
@@ -44,7 +37,7 @@ a {
 
 .hero {
     display: flex;
-    padding: 30px 0;
+    padding: 45px 200px 100px 200px;
     gap: 50px;
     justify-content: space-between;
     background-color: #1F2937;
@@ -53,6 +46,7 @@ a {
 .heroword {
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
 
 .big {
@@ -64,29 +58,31 @@ a {
 .small {
     font-size: 18px;
     color: #e5e7eb;
+    padding-bottom: 5px;
+}
+
+button {
+    background-color: #3882F6;
+    /* border: 0; */
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+    width: 120px;
 }
 
 .firstbutton {
-    background-color: #3882F6;
     border: 0;
-    color: white;
-    border-radius: 10px;
-    padding: 10px;
 }
 
 .secondbutton {
-    background-color: #3882F6;
-    color: white;
-    border-radius: 10px;
     border-color: white;
-    padding: 10px;
-    box-shadow: none;
-    border: 2
+    border-style: solid;
 }
 
 .heroimg img {
-    height: 312px;
-    width: auto;
+    height: 215px;
+    width: 500px;
 }
 
 .infoheader { 
@@ -96,12 +92,13 @@ a {
     color: #1f2937;
     font-size: 36px;
     font-weight: 800;
+    padding: 50px 0 30px 0;
 }
 
 
 .infocontainer {
     display: flex;
-    padding: 30px 30px;
+    padding: 30px 200px 130px 200px;
     justify-content: center;
     gap: 50px;
 }
@@ -115,11 +112,14 @@ a {
     max-width: 200px;
 }
 
+.text {
+    text-align: center;
+}
 
 .quote {
     display: flex;
     flex-direction: column;
-    padding: 30px 137px;
+    padding: 150px 200px;
     background-color: #e5e7eb;
 
 }
@@ -132,25 +132,42 @@ a {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    padding: 0 150px;
 }
 
 .person {
     display: flex;
     justify-content: flex-end;
+    padding: 0 200px;
+    padding-top: 15px;
+    font-weight: 800;
+    font-size: 18px;
 }
 
 .ad {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 137px;
+    margin: 120px 200px;
+    padding: 30px 75px;
     background-color: #3882F6;
+    border-radius: 6px;
 }
 
+.adtextone {
+    color:#F9FAF8;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.adtexttwo {
+    color:#e5e7eb;
+}
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
     color: #e5e7eb;
+    padding: 30px 0;
 }
