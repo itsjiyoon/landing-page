@@ -69,16 +69,17 @@ button {
     padding: 10px;
     height: auto;
     width: 120px;
-    cursor: pointer;
 }
 
 .firstbutton {
     border: 0;
+    cursor: pointer;
 }
 
 .secondbutton {
     border-color: white;
     border-style: solid;
+    cursor: pointer;
 }
 
 .heroimg img {
